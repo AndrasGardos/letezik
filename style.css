@@ -1,0 +1,69 @@
+* {
+  box-sizing:border-box;
+}
+body {
+  width:100%;
+  height:100%;
+  margin:0;
+  background-color: blue;
+}
+.app {
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.cont{
+  max-width:500px;
+  margin:auto;
+  display: grid;
+  grid:"city city"
+       "good bad";
+  background-color: darkblue;
+}
+#city {
+  grid-area:city;
+  text-align:center;
+  font-size:250%;
+  color:white;
+}
+
+
+.btn {
+  font-size:300%;
+  text-align:center;
+  cursor:pointer;
+  padding:10px;
+  border:solid 2px transparent;
+}
+.btn:hover{
+  border:solid 2px white;
+}
+#good {
+ grid-area:good; 
+  
+}
+#bad {
+  grid-area:bad;
+}
+
+.points {
+  position:absolute;
+  right:0px;
+  bottom:0px;
+  color:yellow;
+  font-size:200%;
+}
+
+.progressbar {
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  height:5px;
+  background-color: white;
+  width:0vw;
+  transition:0.5s;
+}
