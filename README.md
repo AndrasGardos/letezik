@@ -2,7 +2,7 @@
 
 In this game, you have to tell apart real hungarian settlements from fake ones. 
 
-I've generated the fakes settlements using [textgenrnn].(https://github.com/minimaxir/textgenrnn)
+I've generated the fakes settlements using [textgenrnn](https://github.com/minimaxir/textgenrnn)
 Can you tell the real and the fake settlements apart?
 
 #TODO:
